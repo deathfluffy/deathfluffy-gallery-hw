@@ -5,6 +5,10 @@
 }
 .main-section {
   width: 1158px;
-  padding: 0 15px;
+  padding: 0 10px;
   margin: 0 auto;
+}
+.main-container {
+  display: flex;
+  gap: 15px;
 }
