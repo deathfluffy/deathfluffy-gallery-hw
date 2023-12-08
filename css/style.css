@@ -3,12 +3,17 @@
   justify-content: center;
   margin-bottom: 8px;
 }
-.main-section {
-  width: 1158px;
-  padding: 0 10px;
-  margin: 0 auto;
-}
+
 .main-container {
   display: flex;
+  flex-direction: column;
   gap: 15px;
+}
+.main-described {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.flowers-pictures {
+  display: flex;
 }
